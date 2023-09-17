@@ -1,0 +1,11 @@
+apiVersion: v2
+name: secret-reflector
+version: 0.0.1
+dependencies:
+- name: reflector
+  repository: https://emberstack.github.io/helm-charts
+  version: 7.0.199
+description: A Helm chart for installing kubernetes reflector for mirroring secrets in namespaces
+home: https://github.com/suyash-811/helm-charts
+sources:
+- https://github.com/suyash-811/helm-charts

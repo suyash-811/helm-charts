@@ -1,0 +1,10 @@
+reflector:
+  extensions:
+    certManager:
+      enabled: false
+
+  resources:
+    limits:
+      cpu: 100m
+      memory: 128Mi
+
