@@ -1,0 +1,11 @@
+apiVersion: v2
+name: sealed-secrets
+version: 0.0.1
+dependencies:
+- name: sealed-secrets
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 1.5.3
+description: A Helm chart for installing sealed-secrets with custom values
+home: https://github.com/suyash-811/helm-charts
+sources:
+- https://github.com/suyash-811/helm-charts
