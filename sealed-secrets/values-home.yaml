@@ -1,0 +1,7 @@
+sealed-secrets:
+  global:
+    storageClass: ""
+
+  resources:
+    limits:
+      memory: 256Mi
